@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Wealth Rank</title>
+    <meta
+      name="description"
+      content="A unified leaderboard ranking companies, countries, and major assets in one place."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="brand-kicker">World Wealth Rank</p>
+          <h1>Global wealth leaderboard</h1>
+        </div>
+      </header>
+
+      <section id="preview-banner" class="preview-banner is-hidden" aria-live="polite"></section>
+
+      <section class="ad-slot ad-slot-top" aria-label="advertisement">
+        <span>AdSense leaderboard slot</span>
+        <small>728x90 or responsive ad</small>
+      </section>
+
+      <main class="content-grid">
+        <aside class="sidebar panel">
+          <div class="panel-heading">
+            <h2>Filters</h2>
+            <p>Search and narrow the unified ranking.</p>
+          </div>
+
+          <div class="control-stack">
+            <label class="control">
+              <span>Search name or symbol</span>
+              <input
+                id="search-input"
+                type="search"
+                placeholder="Apple, BTC, Germany..."
+                autocomplete="off"
+              />
+            </label>
+
+            <label class="control">
+              <span>Category</span>
+              <select id="category-filter">
+                <option value="all">All categories</option>
+                <option value="company">Companies</option>
+                <option value="country">Countries</option>
+                <option value="asset">Assets</option>
+              </select>
+            </label>
+
+            <label class="control">
+              <span>Sort by</span>
+              <select id="sort-select">
+                <option value="value-desc">Highest value</option>
+                <option value="value-asc">Lowest value</option>
+                <option value="name-asc">Name A-Z</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="category-legend">
+            <p class="legend-title">What is being ranked</p>
+            <div class="legend-item">
+              <span class="legend-dot company-dot"></span>
+              <span>Public companies by market cap</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot country-dot"></span>
+              <span>Countries by nominal GDP</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot asset-dot"></span>
+              <span>Assets by estimated market value</span>
+            </div>
+          </div>
+
+          <div class="ad-slot ad-slot-sidebar" aria-label="advertisement">
+            <span>AdSense sidebar slot</span>
+            <small>300x250 ad</small>
+          </div>
+        </aside>
+
+        <section class="leaderboard panel">
+          <div class="leaderboard-header">
+            <div>
+              <h2>Unified Ranking</h2>
+              <p id="result-summary">Loading entries...</p>
+            </div>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Metric</th>
+                  <th>Value</th>
+                  <th>Region / Notes</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboard-body"></tbody>
+            </table>
+          </div>
+
+          <nav class="pagination" aria-label="leaderboard pagination">
+            <button id="prev-page" type="button">Previous</button>
+            <span id="page-status">Page 1 of 1</span>
+            <button id="next-page" type="button">Next</button>
+          </nav>
+        </section>
+      </main>
+
+      <section class="ad-slot ad-slot-bottom" aria-label="advertisement">
+        <span>AdSense bottom slot</span>
+        <small>Responsive display ad</small>
+      </section>
+    </div>
+
+    <template id="row-template">
+      <tr>
+        <td class="rank-cell"></td>
+        <td>
+          <div class="name-cell">
+            <strong class="entry-name"></strong>
+            <span class="entry-symbol"></span>
+          </div>
+        </td>
+        <td><span class="category-pill"></span></td>
+        <td class="metric-label"></td>
+        <td class="entry-value"></td>
+        <td class="entry-meta"></td>
+      </tr>
+    </template>
+
+    <script defer src="./assets/fallback-data.js"></script>
+    <script defer src="./assets/config.js"></script>
+    <script defer src="./assets/app.js"></script>
+  </body>
+</html>
