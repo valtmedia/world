@@ -1,9 +1,9 @@
 window.WWR_FALLBACK_PAYLOAD = {
-  "updatedAt": "2026-07-12T09:19:16.539755+00:00",
+  "updatedAt": "2026-07-13T10:35:25.863026+00:00",
   "currency": "USD",
   "sourceStatus": "partial",
   "sourceErrors": [
-    "build_countries: The read operation timed out"
+    "build_countries: HTTP Error 400: Bad Request"
   ],
   "entries": [
     {
@@ -92,7 +92,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "BTC",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 1279366062678,
+      "valueUsd": 1264495249523,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -457,15 +457,6 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
-      "name": "Ethereum",
-      "symbol": "ETH",
-      "category": "asset",
-      "metricLabel": "Market cap",
-      "valueUsd": 217119416104,
-      "region": "Global",
-      "notes": "CoinGecko crypto market cap"
-    },
-    {
       "name": "McDonald's",
       "symbol": "MCD",
       "category": "company",
@@ -473,6 +464,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "valueUsd": 215000000000,
       "region": "United States",
       "notes": "Public company valuation"
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 214951480574,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
     },
     {
       "name": "Toyota",
@@ -533,7 +533,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "USDT",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 184178040536,
+      "valueUsd": 184126897626,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -695,7 +695,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "BNB",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 77150318280,
+      "valueUsd": 76728891686,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -704,7 +704,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "USDC",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 73390344616,
+      "valueUsd": 73289224594,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -713,7 +713,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "XRP",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 68200127084,
+      "valueUsd": 67302757386,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -722,7 +722,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "SOL",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 44545625008,
+      "valueUsd": 44407417791,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -731,7 +731,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "TRX",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 31303278632,
+      "valueUsd": 31285823442,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -740,16 +740,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "DOGE",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 11291201994,
-      "region": "Global",
-      "notes": "CoinGecko crypto market cap"
-    },
-    {
-      "name": "Cardano",
-      "symbol": "ADA",
-      "category": "asset",
-      "metricLabel": "Market cap",
-      "valueUsd": 6107144427,
+      "valueUsd": 11191610851,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -758,7 +749,16 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "LINK",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 5981100229,
+      "valueUsd": 5970920072,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "Cardano",
+      "symbol": "ADA",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 5956838285,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -767,7 +767,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "BCH",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 4897902319,
+      "valueUsd": 4777103442,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -776,7 +776,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "AVAX",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 2757224238,
+      "valueUsd": 2859909972,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -785,7 +785,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "SHIB",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 2531921228,
+      "valueUsd": 2477860262,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -794,7 +794,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "DOT",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 1434095489,
+      "valueUsd": 1412200728,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     }
