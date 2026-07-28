@@ -1,11 +1,18 @@
 window.WWR_FALLBACK_PAYLOAD = {
-  "updatedAt": "2026-07-27T10:51:14.591664+00:00",
+  "updatedAt": "2026-07-28T09:58:06.401884+00:00",
   "currency": "USD",
-  "sourceStatus": "partial",
-  "sourceErrors": [
-    "build_countries: HTTP Error 400: Bad Request"
-  ],
+  "sourceStatus": "ok",
+  "sourceErrors": [],
   "entries": [
+    {
+      "name": "United States",
+      "symbol": "USA",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 30769700000000,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
     {
       "name": "Gold",
       "symbol": "XAU",
@@ -14,6 +21,60 @@ window.WWR_FALLBACK_PAYLOAD = {
       "valueUsd": 22700000000000,
       "region": "Global",
       "notes": "Manual estimate until a commodity data source is configured"
+    },
+    {
+      "name": "China",
+      "symbol": "CHN",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 19498039388043,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Germany",
+      "symbol": "DEU",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 5050922925047,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Japan",
+      "symbol": "JPN",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 4435162999977,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "United Kingdom",
+      "symbol": "GBR",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 4002587541846,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "India",
+      "symbol": "IND",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 3956067115772,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "France",
+      "symbol": "FRA",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 3366315927447,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
     },
     {
       "name": "Apple",
@@ -43,6 +104,33 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Italy",
+      "symbol": "ITA",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 2551556954100,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Canada",
+      "symbol": "CAN",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 2319899772426,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Brazil",
+      "symbol": "BRA",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 2279920092492,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Alphabet",
       "symbol": "GOOGL",
       "category": "company",
@@ -61,6 +149,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Spain",
+      "symbol": "ESP",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 1906453309986,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Silver",
       "symbol": "XAG",
       "category": "asset",
@@ -68,6 +165,33 @@ window.WWR_FALLBACK_PAYLOAD = {
       "valueUsd": 1900000000000,
       "region": "Global",
       "notes": "Manual estimate until a commodity data source is configured"
+    },
+    {
+      "name": "Korea, Rep.",
+      "symbol": "KOR",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 1872374961553,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Mexico",
+      "symbol": "MEX",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 1832641364776,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Australia",
+      "symbol": "AUS",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 1798518933689,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
     },
     {
       "name": "Saudi Aramco",
@@ -79,6 +203,33 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Turkiye",
+      "symbol": "TUR",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 1597293229287,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Indonesia",
+      "symbol": "IDN",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 1445642584164,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Netherlands",
+      "symbol": "NLD",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 1332767651100,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Meta Platforms",
       "symbol": "META",
       "category": "company",
@@ -88,13 +239,40 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Saudi Arabia",
+      "symbol": "SAU",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 1276942933333,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Bitcoin",
       "symbol": "BTC",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 1310467143050,
+      "valueUsd": 1270964820691,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "Switzerland",
+      "symbol": "CHE",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 1043529899251,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Poland",
+      "symbol": "POL",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 1035491784197,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
     },
     {
       "name": "Berkshire Hathaway",
@@ -133,6 +311,24 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Belgium",
+      "symbol": "BEL",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 725466462860,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Ireland",
+      "symbol": "IRL",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 721701359046,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Tesla",
       "symbol": "TSLA",
       "category": "company",
@@ -140,6 +336,24 @@ window.WWR_FALLBACK_PAYLOAD = {
       "valueUsd": 700000000000,
       "region": "United States",
       "notes": "Public company valuation"
+    },
+    {
+      "name": "Argentina",
+      "symbol": "ARG",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 683097891619,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Sweden",
+      "symbol": "SWE",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 668998664082,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
     },
     {
       "name": "JPMorgan Chase",
@@ -151,6 +365,42 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Israel",
+      "symbol": "ISR",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 610777842874,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Singapore",
+      "symbol": "SGP",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 603869516999,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Austria",
+      "symbol": "AUT",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 579470021095,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Thailand",
+      "symbol": "THA",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 577009981112,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Walmart",
       "symbol": "WMT",
       "category": "company",
@@ -158,6 +408,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "valueUsd": 560000000000,
       "region": "United States",
       "notes": "Public company valuation"
+    },
+    {
+      "name": "United Arab Emirates",
+      "symbol": "ARE",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 552324919096,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2024"
     },
     {
       "name": "Visa",
@@ -169,6 +428,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Norway",
+      "symbol": "NOR",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 530755719439,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Novo Nordisk",
       "symbol": "NVO",
       "category": "company",
@@ -176,6 +444,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "valueUsd": 520000000000,
       "region": "Denmark",
       "notes": "Public company valuation"
+    },
+    {
+      "name": "Viet Nam",
+      "symbol": "VNM",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 514697215165,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
     },
     {
       "name": "Tencent",
@@ -196,6 +473,51 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Philippines",
+      "symbol": "PHL",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 487086123720,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Malaysia",
+      "symbol": "MYS",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 472193128645,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Denmark",
+      "symbol": "DNK",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 462526660468,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Colombia",
+      "symbol": "COL",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 457410034203,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Bangladesh",
+      "symbol": "BGD",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 456319229256,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Mastercard",
       "symbol": "MA",
       "category": "company",
@@ -214,6 +536,24 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Romania",
+      "symbol": "ROU",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 428677977855,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "South Africa",
+      "symbol": "ZAF",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 427184325997,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "ASML",
       "symbol": "ASML",
       "category": "company",
@@ -223,6 +563,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Pakistan",
+      "symbol": "PAK",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 407307214476,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Costco",
       "symbol": "COST",
       "category": "company",
@@ -230,6 +579,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "valueUsd": 395000000000,
       "region": "United States",
       "notes": "Public company valuation"
+    },
+    {
+      "name": "Czechia",
+      "symbol": "CZE",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 391026962800,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
     },
     {
       "name": "Johnson & Johnson",
@@ -259,6 +617,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Egypt, Arab Rep.",
+      "symbol": "EGY",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 365254630180,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Home Depot",
       "symbol": "HD",
       "category": "company",
@@ -266,6 +633,24 @@ window.WWR_FALLBACK_PAYLOAD = {
       "valueUsd": 360000000000,
       "region": "United States",
       "notes": "Public company valuation"
+    },
+    {
+      "name": "Chile",
+      "symbol": "CHL",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 357371159575,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
+      "name": "Portugal",
+      "symbol": "PRT",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 346639825142,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
     },
     {
       "name": "Bank of America",
@@ -277,6 +662,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Peru",
+      "symbol": "PER",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 334854659182,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Merck",
       "symbol": "MRK",
       "category": "company",
@@ -284,6 +678,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "valueUsd": 325000000000,
       "region": "United States",
       "notes": "Public company valuation"
+    },
+    {
+      "name": "Finland",
+      "symbol": "FIN",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 317039368820,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
     },
     {
       "name": "ICBC",
@@ -304,6 +707,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Kazakhstan",
+      "symbol": "KAZ",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 306239209650,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Nestle",
       "symbol": "NSRGY",
       "category": "company",
@@ -322,6 +734,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Nigeria",
+      "symbol": "NGA",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 290794361542,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Netflix",
       "symbol": "NFLX",
       "category": "company",
@@ -331,6 +752,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Algeria",
+      "symbol": "DZA",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 287031225988,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "LVMH",
       "symbol": "MC.PA",
       "category": "company",
@@ -338,6 +768,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "valueUsd": 285000000000,
       "region": "France",
       "notes": "Public company valuation"
+    },
+    {
+      "name": "Greece",
+      "symbol": "GRC",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 280635521324,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
     },
     {
       "name": "SAP",
@@ -376,6 +815,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "New Zealand",
+      "symbol": "NZL",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 264057413740,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "AMD",
       "symbol": "AMD",
       "category": "company",
@@ -394,6 +842,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Iraq",
+      "symbol": "IRQ",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 254367293538,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "Alibaba",
       "symbol": "BABA",
       "category": "company",
@@ -401,6 +858,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "valueUsd": 250000000000,
       "region": "China",
       "notes": "Public company valuation"
+    },
+    {
+      "name": "Hungary",
+      "symbol": "HUN",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 246490213513,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
     },
     {
       "name": "Salesforce",
@@ -421,15 +887,6 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
-      "name": "Ethereum",
-      "symbol": "ETH",
-      "category": "asset",
-      "metricLabel": "Market cap",
-      "valueUsd": 237442564049,
-      "region": "Global",
-      "notes": "CoinGecko crypto market cap"
-    },
-    {
       "name": "Hermes",
       "symbol": "RMS.PA",
       "category": "company",
@@ -446,6 +903,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "valueUsd": 230000000000,
       "region": "France",
       "notes": "Public company valuation"
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 226265619153,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
     },
     {
       "name": "Cisco",
@@ -466,6 +932,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "notes": "Public company valuation"
     },
     {
+      "name": "Qatar",
+      "symbol": "QAT",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 215559615385,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
+    },
+    {
       "name": "McDonald's",
       "symbol": "MCD",
       "category": "company",
@@ -473,6 +948,15 @@ window.WWR_FALLBACK_PAYLOAD = {
       "valueUsd": 215000000000,
       "region": "United States",
       "notes": "Public company valuation"
+    },
+    {
+      "name": "Ukraine",
+      "symbol": "UKR",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 214233312784,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
     },
     {
       "name": "Toyota",
@@ -533,9 +1017,18 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "USDT",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 183986014883,
+      "valueUsd": 183938828053,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "Morocco",
+      "symbol": "MAR",
+      "category": "country",
+      "metricLabel": "Nominal GDP",
+      "valueUsd": 182374250612,
+      "region": "Country",
+      "notes": "World Bank latest annual GDP, 2025"
     },
     {
       "name": "General Electric",
@@ -695,7 +1188,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "BNB",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 76301639820,
+      "valueUsd": 75310353919,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -704,7 +1197,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "USDC",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 72465260311,
+      "valueUsd": 72367245610,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -713,7 +1206,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "XRP",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 69257818844,
+      "valueUsd": 66065879991,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -722,7 +1215,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "SOL",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 44636106552,
+      "valueUsd": 42656862655,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -731,7 +1224,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "TRX",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 31395091809,
+      "valueUsd": 30916155778,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -740,7 +1233,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "DOGE",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 11282241503,
+      "valueUsd": 10877329037,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -749,7 +1242,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "LINK",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 6584197225,
+      "valueUsd": 6202766569,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -758,7 +1251,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "ADA",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 6174304050,
+      "valueUsd": 5859775561,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -767,16 +1260,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "BCH",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 4399964385,
-      "region": "Global",
-      "notes": "CoinGecko crypto market cap"
-    },
-    {
-      "name": "Shiba Inu",
-      "symbol": "SHIB",
-      "category": "asset",
-      "metricLabel": "Market cap",
-      "valueUsd": 2946845335,
+      "valueUsd": 4284178483,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -785,7 +1269,16 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "AVAX",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 2865633256,
+      "valueUsd": 2779440706,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "Shiba Inu",
+      "symbol": "SHIB",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 2728082609,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -794,7 +1287,7 @@ window.WWR_FALLBACK_PAYLOAD = {
       "symbol": "DOT",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 1376218858,
+      "valueUsd": 1293362187,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     }
