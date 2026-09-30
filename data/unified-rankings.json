@@ -1,10 +1,8 @@
 {
-  "updatedAt": "2026-09-29T14:07:12.420241+00:00",
+  "updatedAt": "2026-09-30T13:50:56.803289+00:00",
   "currency": "USD",
-  "sourceStatus": "partial",
-  "sourceErrors": [
-    "build_crypto: HTTP Error 403: Forbidden"
-  ],
+  "sourceStatus": "ok",
+  "sourceErrors": [],
   "entries": [
     {
       "name": "United States",
@@ -203,6 +201,15 @@
       "valueUsd": 1730000000000,
       "region": "Saudi Arabia",
       "notes": "Public company valuation"
+    },
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 1698400315519,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
     },
     {
       "name": "Turkiye",
@@ -664,6 +671,15 @@
       "notes": "World Bank latest annual GDP, 2025"
     },
     {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 330133932935,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
       "name": "Merck",
       "symbol": "MRK",
       "category": "company",
@@ -997,6 +1013,15 @@
       "notes": "Public company valuation"
     },
     {
+      "name": "Tether",
+      "symbol": "USDT",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 183804348603,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
       "name": "Morocco",
       "symbol": "MAR",
       "category": "country",
@@ -1157,6 +1182,114 @@
       "valueUsd": 105000000000,
       "region": "Germany",
       "notes": "Public company valuation"
+    },
+    {
+      "name": "BNB",
+      "symbol": "BNB",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 102654631318,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "XRP",
+      "symbol": "XRP",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 95890812036,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "USDC",
+      "symbol": "USDC",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 74320469082,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "Solana",
+      "symbol": "SOL",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 71139190839,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "TRON",
+      "symbol": "TRX",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 32265267459,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 15063422825,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 10885317790,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "Cardano",
+      "symbol": "ADA",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 9432701115,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "Bitcoin Cash",
+      "symbol": "BCH",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 6223162934,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 4917995177,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "Shiba Inu",
+      "symbol": "SHIB",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 3477372610,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
+    },
+    {
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "category": "asset",
+      "metricLabel": "Market cap",
+      "valueUsd": 2122583705,
+      "region": "Global",
+      "notes": "CoinGecko crypto market cap"
     }
   ]
 }
