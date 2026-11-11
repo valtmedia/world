@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T15:38:34.946231+00:00",
+  "updatedAt": "2026-11-11T15:22:00.804184+00:00",
   "currency": "USD",
   "sourceStatus": "ok",
   "sourceErrors": [],
@@ -216,7 +216,7 @@
       "symbol": "BTC",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 1481028231461,
+      "valueUsd": 1478215876763,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -855,7 +855,7 @@
       "symbol": "ETH",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 250244188418,
+      "valueUsd": 251212995710,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -1035,7 +1035,7 @@
       "symbol": "USDT",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 176894977213,
+      "valueUsd": 175819069009,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -1188,7 +1188,7 @@
       "symbol": "BNB",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 89801827441,
+      "valueUsd": 89401645882,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -1197,7 +1197,7 @@
       "symbol": "USDC",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 70007176398,
+      "valueUsd": 69766521861,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -1206,7 +1206,7 @@
       "symbol": "XRP",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 66509713547,
+      "valueUsd": 67291040292,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -1215,7 +1215,7 @@
       "symbol": "SOL",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 49124612785,
+      "valueUsd": 49570541533,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -1224,7 +1224,7 @@
       "symbol": "TRX",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 30318628104,
+      "valueUsd": 30084303639,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -1233,7 +1233,7 @@
       "symbol": "DOGE",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 10692050396,
+      "valueUsd": 10679465088,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -1242,7 +1242,7 @@
       "symbol": "LINK",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 7936780083,
+      "valueUsd": 7926076284,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -1251,7 +1251,7 @@
       "symbol": "ADA",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 6564463290,
+      "valueUsd": 6646959686,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -1260,7 +1260,7 @@
       "symbol": "BCH",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 4664804288,
+      "valueUsd": 4627206970,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -1269,7 +1269,7 @@
       "symbol": "AVAX",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 3675458348,
+      "valueUsd": 3808187864,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -1278,7 +1278,7 @@
       "symbol": "SHIB",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 2589077813,
+      "valueUsd": 2623930154,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     },
@@ -1287,7 +1287,7 @@
       "symbol": "DOT",
       "category": "asset",
       "metricLabel": "Market cap",
-      "valueUsd": 1464179252,
+      "valueUsd": 1482687376,
       "region": "Global",
       "notes": "CoinGecko crypto market cap"
     }
